@@ -12,22 +12,15 @@ class Toyota(vehicle):
     def vehicle(self):
         return "Totota!"
 
+
 class Nissan(vehicle):
-        def vehicle(self):
-            return "Nissan!"
+    def vehicle(self):
+        return "Nissan!"
 
 
 vehicle = vehicle("vitz", "Red", "Toyota")
 print(vehicle.name)
 print(vehicle.color)
 print(vehicle.brand)
-
-
-
-
-
-
-
-
 
 
